@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .myButton {
+	-moz-box-shadow: 0px 0px 0px 0px #3dc21b;
+	-webkit-box-shadow: 0px 0px 0px 0px #3dc21b;
+	box-shadow: 5px 5px 0px 0px #3dc21b;
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+            .pizza{
+            display:none;
+    
+                max-width: 50%;
+            }
+
+        
+        </style>
+    </head>
+    <body>
+        
+   
+  
+
+<a onclick="dance();" href="#" class="myButton">Hello
+       
+        </a>
+          <img src="pizza.gif" class="pizza" id="boogie">
+          <script>
+        var boogie=document.getElementById("boogie");
+            
+              function dance(){
+              
+              if(boogie.style.display="none"){
+               boogie.style.display="block";
+               
+              
+              } 
+              
+              
+              
+              }
+            
+        
+        </script>
+       
+    </body>
+</html>
